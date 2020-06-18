@@ -7,11 +7,12 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: rgb(255, 255, 255);
+	font-family: arial,sans-serif;
+	font-size: 13px;
 }
 
 li {
-	display: inline;
 	float: right;
 }
 
@@ -33,6 +34,21 @@ li a:hover {
 	color: white;
 }
 
+#bottomBar {
+	background-color: #f2f2f2;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+#bottomBarL {
+	float: left;
+}
+
+#bottomBarR {
+	float: right;
+}
+
 img {
 	height: 92px;
 	width: 272px;
@@ -49,21 +65,46 @@ div {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 10px;
+	padding: 150px 10px 10px 10px;
 }
 
 input[type=submit] {
 	padding: 0 16px;
 	margin: 11px 4px;
 	font-size: 15px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
 	font: arial;
+	border-style: hidden;
 }
 
 #searchbar {
 	border-radius: 24px;
 	height: 44px;
-	width: 50%;
+	width: 40%;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 10px;
+}
+
+button {
+	padding: 8px 16px;
+	margin: 0px 5px;
+}
+
+#apps {
+	margin: 0px 10px;
+	padding: 5px 5px;
+}
+
+#btnSignMe {
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
 }
